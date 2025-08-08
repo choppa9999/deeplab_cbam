@@ -1,0 +1,17 @@
+create_tfrecords.py 
+- roboflow에서 라벨링한 coco파일을 tfrecords로 변환
+
+deeplab_v3_plus_cbam.py
+- deeplab의 aspp 마지막 부분과 디코더 마지막부분에 Cbam을 적용해 학습률 높임
+
+evaluate_tflite_coco.py
+- tflite로 크기를 줄인모델의 추론 성능 평가
+
+inference_tflite.py
+- tflite 모델 추론
+
+main_Cbam.py
+- 학습, 추론, 평가, 압축 기능을 탑제한 메인 모델, --mode 로 모드 변경
+
+segementation_dataset.py
+- 학습이나 평가에 사용될 데이터셋을 나눔
