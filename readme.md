@@ -31,11 +31,10 @@
 ├── exported_models/              # 내보내기된 모델이 저장되는 폴더
 │   ├── Model/                    # SavedModel 형식
 │   └── tflite_models/            # TFLite 형식 (.tflite)
-├── test_images/                  # 추론에 사용할 테스트 이미지 폴더
 ├── tflite_results/               # TFLite 추론 결과가 저장되는 폴더
 ├── main_cbam.py                  # 학습, 평가, 모델 내보내기 메인 스크립트
 ├── inference_tflite.py           # TFLite 모델 추론 스크립트
-├── create_tfrecords_from_coco.py # COCO 데이터셋을 TFRecord로 변환하는 스크립트
+├── create_tfrecords.py # COCO 데이터셋을 TFRecord로 변환하는 스크립트
 ├── deeplab_v3_plus_cbam.py       # 모델 아키텍처 정의
 ├── segmentation_dataset.py       # 데이터셋 로더 정의
 ├── requirements.txt              # 필요 라이브러리 목록
