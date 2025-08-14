@@ -3,3 +3,4 @@ Pillow
 matplotlib
 tqdm
 psutil
+pycocotools
