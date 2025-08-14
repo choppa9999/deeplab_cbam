@@ -45,11 +45,10 @@
 
 ## 4. 환경 설정
 
-`requirements.txt` 파일을 사용하여 필요한 라이브러리를 설치합니다. `pycocotools`도 함께 설치합니다.
+`requirements.txt` 파일을 사용하여 필요한 라이브러리를 설치합니다.
 
 ```bash
 pip install -r requirements.txt
-pip install pycocotools
 ```
 
 ---
