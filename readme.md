@@ -109,12 +109,11 @@ TFRecord로 변환된 데이터셋을 사용하여 모델을 학습합니다.
 
 - **실행 명령어**:
   ```bash
-  python main_cbam.py --mode train --epoch 50 --initial_epochs 10 --batch 8
+  python main_cbam.py --mode train --epoch 50 --batch 8
   ```
 
 - **주요 인자**:
   - `--epoch`: 전체 학습 에포크 수 (기본값: 50)
-  - `--initial_epochs`: 전체 에포크 중, 1단계(특징 추출)에 사용할 에포크 수 (기본값: 10)
   - `--batch`: 배치 크기 (기본값: 8)
   - `--learning_rate`: 초기 학습률 (기본값: 1e-3)
   - `--resume_training`: `./checkpoints/best_model.keras`에서 학습을 이어서 진행합니다.
